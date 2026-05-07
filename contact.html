@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Pet Paradise</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Pet <span>PARADISE</span></div>
+        <button class="nav-toggle" id="nav-toggle" aria-label="Open menu">
+            <i class="fas fa-bars"></i>
+        </button>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+        <div class="nav-right">
+            <button class="btn-signup">Sign Up</button>
+        </div>
+    </nav>
+
+    <main>
+        <section id="contact" class="page active">
+            <section class="content-wrap">
+                <h2 class="title">Make a Reservation</h2>
+                <p class="page-intro">Tell us about your dog and we will prepare a personalized stay plan including room setup, activity schedule, feeding preferences and optional grooming or wellness add-ons.</p>
+                <div class="contact-grid-modern">
+                    <div class="contact-info-panel reveal">
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Location</h4>
+                                <p>Tai Mo Shan Highlands, Hong Kong</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-phone-alt"></i>
+                            <div>
+                                <h4>Concierge</h4>
+                                <p>+852 2345 6789</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Inquiries</h4>
+                                <p>reservations@petparadise.hk</p>
+                            </div>
+                        </div>
+                    </div>
+                    <form class="contact-form-luxury reveal" id="booking-form">
+                        <div class="form-row">
+                            <input type="text" name="owner" placeholder="Owner Name" required>
+                            <input type="text" name="pet" placeholder="Pet Name" required>
+                        </div>
+                        <input type="email" name="email" placeholder="Email Address" required>
+                        <textarea name="notes" placeholder="Special Requirements (Dietary, Medical, etc.)" rows="5"></textarea>
+                        <div class="form-message" id="booking-message" aria-live="polite"></div>
+                        <button type="submit" class="btn-signup">Request Booking</button>
+                    </form>
+                </div>
+            </section>
+        </section>
+    </main>
+
+    <div class="floating-booking" onclick="navigateTo('contact')">
+        <i class="fas fa-bone"></i>
+        <span>Check Availability</span>
+    </div>
+
+    <footer class="footer-clean">
+        <div class="footer-bottom">
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-whatsapp"></i></a>
+            </div>
+            <p>&copy; 2026 Pet Paradise Luxury Resort. All Rights Reserved.</p>
+            <p class="contact-snippet">+852 2345 6789 | reservations@petparadise.hk</p>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

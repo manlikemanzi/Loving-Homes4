@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loving Homes Luxury Hong Kong Resort</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Loving <span>Homes</span></div>
+        <button class="nav-toggle" id="nav-toggle" aria-label="Open menu">
+            <i class="fas fa-bars"></i>
+        </button>
+        <ul class="nav-links">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="nav-right">
+            <button class="btn-signup">Sign Up</button>
+        </div>
+    </nav>
+
+    <main>
+        <section id="home" class="page active">
+            <header class="hero">
+                <video autoplay muted loop playsinline class="hero-video">
+                    <source src="dog in air.mp4" type="video/mp4">
+                </video>
+                <div class="hero-overlay">
+                    <p class="hero-kicker">Hong Kong • Pet Paradise</p>
+                    <h1 class="hero-title">Luxury Dog Care in the Heart of Nature.</h1>
+                    <p class="hero-subtitle">Spa-grade suites, nature hikes and 24/7 HD webcam so you can relax while they play.</p>
+                    <div class="hero-cta-group">
+                        <button class="btn-primary" onclick="navigateTo('services')">View Packages</button>
+                        <button class="btn-ghost" onclick="navigateTo('contact')">Book a Visit</button>
+                    </div>
+                </div>
+                <div class="scroll-indicator">
+                    <span>Scroll to explore</span>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+            </header>
+
+            <section class="content-wrap intro-wrap">
+                <p class="page-intro">Loving Homes is a premium dog-only retreat in Hong Kong, combining nature, comfort and medical-ready care so every dog stays active, safe and emotionally settled while their family is away.</p>
+                <div class="resort-stats">
+                    <article class="stat-card reveal"><strong>24/7</strong><span>Veterinary response</span></article>
+                    <article class="stat-card reveal" data-delay="80"><strong>9+</strong><span>Years of dog care excellence</span></article>
+                    <article class="stat-card reveal" data-delay="160"><strong>100%</strong><span>Dog-focused accommodation</span></article>
+                    <article class="stat-card reveal" data-delay="240"><strong>Daily</strong><span>Woodland walks & enrichment</span></article>
+                </div>
+            </section>
+
+            <section class="content-wrap">
+                <h2 class="title">Facility Highlights</h2>
+                <div class="grid-layout">
+                    <div class="grid-card reveal">
+                        <img src="images/b.jpg" alt="Tai Mo Shan">
+                        <div class="glass-overlay">
+                            <h3>Tai Mo Shan Highlands</h3>
+                            <p>Our flagship elevated retreat at 900m above sea level with fresh mountain air and open tracks.</p>
+                        </div>
+                    </div>
+                    <div class="grid-card reveal" data-delay="150">
+                        <img src="images/walk park.jpg" alt="Pat Sin Leng">
+                        <div class="glass-overlay">
+                            <h3>Pat Sin Leng Sanctuary</h3>
+                            <p>Forest-canopy play zones and sensory gardens designed for stress-free socialization.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="content-wrap">
+                <h2 class="title">Dog-Centered Services at a Glance</h2>
+                <div class="home-services-grid">
+                    <article class="home-service-card reveal">
+                        <img src="grooming-parlour.jpg" alt="Dog grooming session">
+                        <h3>Grooming Parlour</h3>
+                        <p>Gentle coat care, paw cleaning and breed-appropriate styling to keep every dog healthy and comfortable.</p>
+                    </article>
+                    <article class="home-service-card reveal" data-delay="100">
+                        <img src="heated-suites.jpeg" alt="Dog resting in premium suite">
+                        <h3>Heated Smart Suites</h3>
+                        <p>Private rooms with underfloor heating and dog-safe TV content designed to reduce anxiety during overnight stays.</p>
+                    </article>
+                    <article class="home-service-card reveal" data-delay="160">
+                        <img src="dog-adventure.jpg" alt="Dog running in secure grass area">
+                        <h3>Safe Play & Adventure</h3>
+                        <p>Secure padlocks, woodland walks, private grass areas and indoor playground sessions supervised by trained handlers.</p>
+                    </article>
+                    <article class="home-service-card reveal" data-delay="220">
+                        <img src="vet-services.jpg" alt="Veterinarian checking a dog">
+                        <h3>24-Hour Vet Support</h3>
+                        <p>On-call veterinary care available day and night for fast response to health concerns and medication routines.</p>
+                    </article>
+                </div>
+            </section>
+
+            <section class="feedback-carousel">
+                <div class="carousel-container">
+                    <div class="carousel-slide active">
+                        <p>"The $550 Premium suite is worth every penny for the 24/7 live feed!"</p>
+                        <span>- Kevin W.</span>
+                    </div>
+                    <div class="carousel-slide">
+                        <p>"My dog came back more relaxed than when I dropped him off."</p>
+                        <span>- Mrs. Cheng</span>
+                    </div>
+                    <div class="carousel-slide">
+                        <p>"Finally, a service in HK that understands high-energy breeds."</p>
+                        <span>- Marcus T.</span>
+                    </div>
+                    <div class="carousel-slide">
+                        <p>"The underfloor heating room helped our senior Labrador sleep comfortably all night."</p>
+                        <span>- Angela P.</span>
+                    </div>
+                    <div class="carousel-slide">
+                        <p>"Their woodland walk team sends updates and treats our husky like family."</p>
+                        <span>- Raymond K.</span>
+                    </div>
+                    <div class="carousel-slide">
+                        <p>"Secure rooms, clean grooming and quick vet support - exactly what we needed."</p>
+                        <span>- Priya S.</span>
+                    </div>
+                </div>
+            </section>
+        </section>
+    </main>
+
+    <div class="floating-booking" onclick="navigateTo('contact')">
+        <i class="fas fa-bone"></i>
+        <span>Check Availability</span>
+    </div>
+
+    <footer class="footer-clean">
+        <div class="footer-bottom">
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-whatsapp"></i></a>
+            </div>
+            <p>&copy; 2026 Pet Paradise Luxury Resort. All Rights Reserved.</p>
+            <p class="contact-snippet">+852 2345 6789 | reservations@petparadise.hk</p>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

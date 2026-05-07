@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | Pet Paradise</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Pet <span>PARADISE</span></div>
+        <button class="nav-toggle" id="nav-toggle" aria-label="Open menu">
+            <i class="fas fa-bars"></i>
+        </button>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="about.html" class="active">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="nav-right">
+            <button class="btn-signup">Sign Up</button>
+        </div>
+    </nav>
+
+    <main>
+        <section id="about" class="page active">
+            <section class="content-wrap">
+                <div class="story-box">
+                    <h2 class="title">Our Story & Values</h2>
+                    <p class="page-intro">Since 2018, we have redefined luxury boarding by building a resort where dogs receive structured care, emotional support and healthy routines in a secure mountain environment.</p>
+                    <p>We believe in transparency, nature-led play, and uncompromising safety. Every routine is designed around canine behavior, breed needs and owner peace of mind.</p>
+                </div>
+                <h2 class="title" style="margin-top:4rem;">Meet the Specialists</h2>
+                <div class="staff-grid">
+                    <div class="staff-card reveal">
+                        <div class="staff-img" style="background-image: url('https://images.unsplash.com/photo-1559839734-2b71ef197ec2?auto=format&fit=crop&q=80&w=300');"></div>
+                        <h4>Dr. Wong</h4>
+                        <p>Veterinary Director</p>
+                    </div>
+                    <div class="staff-card reveal" data-delay="120">
+                        <div class="staff-img" style="background-image: url('https://images.unsplash.com/photo-1537368910025-700350fe46c7?auto=format&fit=crop&q=80&w=300');"></div>
+                        <h4>Adrian L.</h4>
+                        <p>Resort Manager</p>
+                    </div>
+                    <div class="staff-card reveal" data-delay="200">
+                        <div class="staff-img" style="background-image: url('https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?auto=format&fit=crop&q=80&w=300');"></div>
+                        <h4>Sajah K.</h4>
+                        <p>Head of Training</p>
+                    </div>
+                    <div class="staff-card reveal" data-delay="280">
+                        <div class="staff-img" style="background-image: url('https://images.unsplash.com/photo-1594824476967-48c8b964273f?auto=format&fit=crop&q=80&w=300');"></div>
+                        <h4>Bella T.</h4>
+                        <p>Wellness Lead</p>
+                    </div>
+                </div>
+                <h2 class="title" style="margin-top:4rem;">What Dog Parents Say</h2>
+                <div class="about-reviews-grid">
+                    <article class="about-review-card reveal">
+                        <p>"Our beagle usually gets anxious away from home, but the team kept her calm with private grass-time and gentle care."</p>
+                        <span>- Naomi C.</span>
+                    </article>
+                    <article class="about-review-card reveal" data-delay="100">
+                        <p>"The grooming parlour is excellent. Our golden retriever came back clean, relaxed and beautifully brushed."</p>
+                        <span>- Jason M.</span>
+                    </article>
+                    <article class="about-review-card reveal" data-delay="180">
+                        <p>"Knowing there is 24-hour vet support made this the easiest boarding decision we have made."</p>
+                        <span>- Hui L.</span>
+                    </article>
+                </div>
+            </section>
+        </section>
+    </main>
+
+    <div class="floating-booking" onclick="navigateTo('contact')">
+        <i class="fas fa-bone"></i>
+        <span>Check Availability</span>
+    </div>
+
+    <footer class="footer-clean">
+        <div class="footer-bottom">
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-whatsapp"></i></a>
+            </div>
+            <p>&copy; 2026 Pet Paradise Luxury Resort. All Rights Reserved.</p>
+            <p class="contact-snippet">+852 2345 6789 | reservations@petparadise.hk</p>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
